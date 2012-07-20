@@ -1,4 +1,15 @@
-J2EE-Platform-with-SNS-Registration
-===================================
+# Spring MVC / Hibernate / Hibernate application demo
 
-J2EE Sample app featuring Spring MVC / Hibernate and Oauth connection to Twitter
+This is a demo web application that uses Spring MVC and Hibernate for Jade.
+App is running at : http://platform-staging.herokuapp.com
+
+## Running the application locally
+
+First build with:
+
+    $mvn clean install
+
+Then run it with:
+
+    $java -jar target/dependency/webapp-runner.jar target/*.war
+

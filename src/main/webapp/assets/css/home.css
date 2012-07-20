@@ -1,0 +1,184 @@
+.size_64{
+    width: 64px;
+    height: 64px;
+}
+.main{
+    padding-top:50px;
+}
+
+#flash_notice, #flash_error, #flash_alert {
+  padding: 5px 8px;
+  margin-bottom: 10px;
+  width: 320px;
+}
+
+#flash_notice {
+  background-color: #CFC;
+  border: solid 1px #6C6;
+}
+
+#flash_error, #flash_alert {
+  background-color: #FCC;
+  border: solid 1px #C66;
+}
+
+.fieldWithErrors {
+  display: inline;
+}
+
+.error_messages {
+  width: 400px;
+  border: 2px solid #CF0000;
+  padding: 0px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  font-size: 12px;
+}
+
+.error_messages h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 10px;
+  font-size: 12px;
+  margin: 0;
+  background-color: #c00;
+  color: #fff;
+}
+
+.error_messages p {
+  margin: 8px 10px;
+}
+
+.error_messages ul {
+  margin: 0;
+}
+
+#user_nav {
+  float: right;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+.networks {
+  margin-bottom: 30px;
+}
+
+.network {
+  float: left;
+  background-color: #EEE;
+  border: solid 1px #999;
+  padding: 5px 10px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  position: relative;
+  margin-right: 10px;
+}
+
+.network .remove {
+  text-decoration: none;
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  color: #333;
+  padding: 2px 4px;
+  font-size: 10px;
+}
+
+.network .remove:hover {
+  color: #FFF;
+  background-color: #777;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+}
+
+.network img {
+  float: left;
+}
+
+.network .provider, .network .uid {
+  margin-left: 38px;
+  margin-right: 20px;
+}
+
+.network .provider {
+  font-weight: bold;
+}
+
+.network .uid {
+  color: #666;
+  font-size: 11px;
+}
+
+.auth_provider img {
+  display: block;
+}
+
+.auth_networks{
+  margin-top: 20px;
+  margin-left: 25px;
+}
+.auth_provider {
+  float:left;
+  text-decoration: none;
+  margin-right: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+/* customer preview - used in notifications and customer wall */
+#customer_profile {
+    position: absolute;
+    background: #ffffff;
+    width: 250px;
+    color: #57903b;
+    font-size: 11px;
+    visibility:hidden;
+    border: 1px solid #5087af;
+    -moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px #888;
+    box-shadow: 0 0 5px #888;
+    padding: 10px;
+}
+
+.triangle-border:before {
+    content: "";
+    position: absolute;
+    bottom: -11px;
+    left: 20px;
+    border-width: 11px 11px 0;
+    border-style: solid;
+    border-color: #447599 transparent;
+    display: block;
+    width: 0;
+}
+
+/* creates the smaller  triangle */
+.triangle-border:after {
+    content: "";
+    position: absolute;
+    bottom: -9px;
+    left: 20px;
+    border-width: 11px 11px 0;
+    border-style: solid;
+    border-color: #fff transparent;
+    display: block;
+    width: 0;
+}
+
+/* creates the larger triangle */
+.triangle-border.top:before {
+    top: -11px;
+    bottom: auto;
+    left: 20px;
+    border-width: 0 11px 11px;
+}
+
+/* creates the smaller  triangle */
+.triangle-border.top:after {
+    top: -9px;
+    bottom: auto;
+    left: 20px;
+    border-width: 0 11px 11px;
+}
