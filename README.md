@@ -1,4 +1,4 @@
-# Spring MVC / Hibernate / Hibernate application demo
+# Spring MVC / Hibernate / Oauth application demo
 
 This is a demo web application that uses Spring MVC and Hibernate for Jade.
 App is running at : http://platform-staging.herokuapp.com
